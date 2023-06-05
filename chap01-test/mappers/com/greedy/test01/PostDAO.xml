@@ -9,6 +9,7 @@
 	작성한 메소드의 이름과 id가 일치하며 리턴 타입이 일치하는 쿼리문을 모두 작성해야 한다.
  -->
 
+<!-- DAO interface와 연결하기 위한 경로 지정...(풀네임 필수!!) -->
 <mapper namespace="com.greedy.test01.PostDAO">
 	
 	<!-- 조회할 컬럼과 DTO를 매핑시키기 위한 설정 -->

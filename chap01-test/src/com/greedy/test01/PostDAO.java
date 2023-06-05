@@ -10,7 +10,6 @@ public interface PostDAO {
 	List<PostDTO> selectAllPost();
 	
 	
-	
 	/*case2*/
 	/*<select id="daoPostCode" 이기 때문에 daoPostCode()*/
 	PostDTO daoPostCode(int code);

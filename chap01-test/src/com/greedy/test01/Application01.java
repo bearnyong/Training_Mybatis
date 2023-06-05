@@ -28,38 +28,30 @@ public class Application01 {
 			
 				/*게시글 조회 (전체)*/
 				// 입력 값이 없이 바로 전체 조회를 하기 때문에 바로 Controller로 이동...
-				case 1 : postController.findAllPost();
-					break;
+				case 1 : postController.findAllPost(); break;
 				
 				/*게시글 조회 (번호)*/
-				case 2 : postController.findPostByPostCode(inputPostCode());
-					break;
+				case 2 : postController.findPostByPostCode(inputPostCode()); break;
 				
 				/*게시글 추가*/
-				case 3 : postController.registNewPost(addPost());
-					break;
+				case 3 : postController.registNewPost(addPost()); break;
 				
 				/*게시글 제목 수정*/
-				case 4 : postController.modifyPost(updatePost());
-					break;
+				case 4 : postController.modifyPost(updatePost()); break;
 				
 				/*게시글 삭제*/
-				case 5 : postController.removePost(inputPostCode());
-					break;
+				case 5 : postController.removePost(inputPostCode()); break;
 					
 				/*종료*/	
-				case 0 : System.out.println("프로그램이 종료되었습니다...");
-					break bye;
+				case 0 : System.out.println("\n프로그램이 종료되었습니다..."); break bye;
 					
 				/*다른 값 입력*/
-				default : System.out.println("잘못된 입력 값 입니다... 다시 입력해 주세요...");
-					break;
+				default : System.out.println("잘못된 입력 값 입니다... 다시 입력해 주세요..."); break;
 			}
 		} while(true); /*무한 루프*/
 	}
 
 
-	
 	
 	/*case2, case5*/
 	private static Map<String,String> inputPostCode() {

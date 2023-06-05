@@ -26,23 +26,23 @@ public class PrintResult {
 			
 			/*case1*/
 			case "case1PrintSuccess" :
-				System.out.println("\n전체 게시글 조회 완료\n");
+				System.out.println("\n전체 게시글 조회 완료\n"); break;
 		
 			/*case2*/
 			case "case2PrintSuccess" :
-				System.out.println("\n게시글 조회 완료\n");
+				System.out.println("\n게시글 조회 완료\n"); break;
 				
 			/*case3*/
 			case "case3PrintSuccess" :
-				System.out.println("\n게시글 등록 완료\n");
+				System.out.println("\n게시글 등록 완료\n"); break;
 				
 			/*case4*/
 			case "case4PrintSuccess" :
-				System.out.println("\n게시글 수정 완료\n");
+				System.out.println("\n게시글 수정 완료\n"); break;
 				
 			/*case5*/
 			case "case5PrintSuccess" :
-				System.out.println("\n게시글 비활성화 완료\n");
+				System.out.println("\n게시글 비활성화 완료\n"); break;
 				
 		}
 		

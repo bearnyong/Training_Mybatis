@@ -5,7 +5,10 @@ import java.util.Map;
 
 public class PostController {
 	
-	/**/
+	/* Controller의 역할...
+	 * 1. 사용자 요청 처리
+	   2. 사용자 입력 값의 유효성 체크*/
+	
 	private final PostService postService;
 	/*결과 값을 출력해주는 클래스 PrintResult 호출*/
 	private final PrintResult printResult;
